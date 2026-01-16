@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { add, sub } from '../../lib/bank';
 
 export default function Blackjack() {
