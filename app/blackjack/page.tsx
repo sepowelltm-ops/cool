@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { add, sub } from '@/lib/bank';
+import { add, sub } from '../../lib/bank';
 
 export default function Blackjack() {
   const [msg, setMsg] = useState('Place a bet');
