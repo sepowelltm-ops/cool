@@ -1,5 +1,6 @@
-import './globals.css';
-import Balance from '@/components/Balance';
+'use client';
+import React from 'react';
+import Balance from '../components/Balance';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
